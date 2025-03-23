@@ -1,38 +1,35 @@
 /* Custom Styles */
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif; /* Modern, clean font */
+    color: #333; /* Dark gray for readability */
     scroll-behavior: smooth;
 }
 
-.navbar {
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+h1, h2, h3 {
+    font-weight: 600; /* Bold for emphasis */
+    color: #007bff; /* Vibrant blue for headings */
 }
 
-#home {
-    height: 100vh;
-    background: linear-gradient(to right, #007bff, #00c6ff);
+p, .table, .accordion-button {
+    font-size: 1rem; /* Standard body text size */
 }
 
-section {
-    padding: 60px 0;
+.lead {
+    font-size: 1.25rem; /* Slightly larger for emphasis */
 }
 
-.table {
-    margin-bottom: 20px;
-}
-
-.accordion-button {
-    background-color: #f8f9fa;
-}
-
-.card {
-    transition: transform 0.3s;
-}
-
-.card:hover {
-    transform: translateY(-10px);
-}
-
-footer {
-    background-color: #007bff;
+/* Responsive Text Sizing */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem; /* Smaller on mobile */
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    p, .table, .accordion-button {
+        font-size: 0.9rem; /* Readable on small screens */
+    }
+    .lead {
+        font-size: 1.1rem;
+    }
 }
