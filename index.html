@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CM Plumbing - Reliable Plumbing Services in Washington State</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">CM Plumbing</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#resources">Resources</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#scheduling">Scheduling</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="d-flex align-items-center text-center text-white bg-primary">
+        <div class="container">
+            <h1 class="display-4">Reliable Plumbing Services in Washington State</h1>
+            <p class="lead">Your trusted partner for all plumbing needs, from drain cleaning to backflow prevention.</p>
+            <a href="#scheduling" class="btn btn-light btn-lg">Schedule Service Now</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Services</h2>
+            <div class="table-responsive">
+                <table class="table table-striped table-hover">
+                    <thead class="table-primary">
+                        <tr>
+                            <th>Service</th>
+                            <th>Estimated Cost</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Sink/Shower Lateral</td>
+                            <td>$350</td>
+                        </tr>
+                        <tr>
+                            <td>Toilet Lateral</td>
+                            <td>$500</td>
+                        </tr>
+                        <tr>
+                            <td>Sewer/Septic Mainline</td>
+                            <td>$750</td>
+                        </tr>
+                        <tr>
+                            <td>Backflow Repair</td>
+                            <td>$125 per hour</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="text-muted text-center">*Prices are estimates for standard services. Additional charges may apply for complex issues or extra materials. For backflow repair, the total cost depends on the time required.</p>
+            <h3 class="mt-5">Service Descriptions</h3>
+            <div class="accordion" id="serviceAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#sinkShower">
+                            Sink/Shower Lateral
+                        </button>
+                    </h2>
+                    <div id="sinkShower" class="accordion-collapse collapse" data-bs-parent="#serviceAccordion">
+                        <div class="accordion-body">
+                            Clearing blockages in sink or shower drains to restore proper water flow and prevent backups. This service keeps your drains running smoothly and protects your home from water damage.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#toiletLateral">
+                            Toilet Lateral
+                        </button>
+                    </h2>
+                    <div id="toiletLateral" class="accordion-collapse collapse" data-bs-parent="#serviceAccordion">
+                        <div class="accordion-body">
+                            Addressing clogs or issues in toilet drain lines to ensure efficient flushing and prevent overflows. A clear toilet line is crucial for hygiene and convenience.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sewerSeptic">
+                            Sewer/Septic Mainline
+                        </button>
+                    </h2>
+                    <div id="sewerSeptic" class="accordion-collapse collapse" data-bs-parent="#serviceAccordion">
+                        <div class="accordion-body">
+                            Cleaning the main sewer or septic line to maintain system health and prevent costly backups. Regular maintenance avoids emergencies and extends the life of your plumbing system.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#backflowRepair">
+                            Backflow Repair
+                        </button>
+                    </h2>
+                    <div id="backflowRepair" class="accordion-collapse collapse" data-bs-parent="#serviceAccordion">
+                        <div class="accordion-body">
+                            Repairing backflow prevention devices to protect your water supply from contamination. Billed at $125 per hour, with the total cost depending on the complexity of the repair. This service ensures your water stays safe and compliant with regulations.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section id="resources" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Plumbing Resources</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Understanding Backflow Prevention</h5>
+                            <p class="card-text">Backflow occurs when contaminated water flows backward into your clean water supply. Learn why testing and repairing backflow preventers is crucial for your home’s safety.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Sewer and Septic Drain Cleaning</h5>
+                            <p class="card-text">Regular drain cleaning prevents backups and costly repairs. Discover the warning signs and benefits of keeping your sewer and septic lines clear.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scheduling Section -->
+    <section id="scheduling" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Schedule Your Service</h2>
+            <p class="text-center">Use the calendar below to book your appointment quickly and easily.</p>
+            <!-- Placeholder for Calendly Widget -->
+            <div class="text-center">
+                <p><em>Calendly widget will be embedded here. Replace this text with your Calendly embed code.</em></p>
+            </div>
+            <p class="text-center mt-4">Prefer to call? Reach us at <strong>(555) 123-4567</strong> or email us at <strong>info@cmplumbing.com</strong>.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Send Us a Message</h5>
+                    <!-- Placeholder for Formspree Contact Form -->
+                    <form action="https://formspree.io/your-email" method="POST">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <h5>Contact Information</h5>
+                    <p><strong>Phone:</strong> (555) 123-4567</p>
+                    <p><strong>Email:</strong> info@cmplumbing.com</p>
+                    <p><strong>Address:</strong> 123 Plumbing St, Seattle, WA 98101</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white text-center py-3">
+        <p>&copy; 2023 CM Plumbing. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and Custom JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
